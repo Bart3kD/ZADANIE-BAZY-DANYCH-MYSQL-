@@ -34,9 +34,9 @@ VALUES
 
 INSERT INTO Employment (employee_id, employee_position_id, restaurant_id)
 VALUES 
-    (1, 1, 1), -- John Doe as Chef at The Gourmet House
-    (2, 2, 2), -- Jane Smith as Waiter at Ocean Breeze
-    (3, 3, 3); -- Michael Brown as Manager at Mountain Retreat
+    (1, 1, 1), 
+    (2, 2, 2), 
+    (3, 3, 3); 
 
 INSERT INTO Restaurant_Table (name, number_of_guests, restaurant_id)
 VALUES 
@@ -47,5 +47,5 @@ VALUES
 
 INSERT INTO Reservation (restaurant_table_id, phone_number, date, number_of_guests)
 VALUES 
-    (1, '5551234567', '2024-10-15', 4), -- Table 1 at The Gourmet House
-    (3, '5559876543', '2024-10-16', 2); -- Table 1 at Ocean Breeze
+    (1, '5551234567', '2024-10-15', 4), 
+    (3, '5559876543', '2024-10-16', 2); 
